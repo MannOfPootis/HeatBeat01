@@ -14,16 +14,19 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.heatbeat.R;
 import com.example.heatbeat.databinding.FragmentMainBinding;
+import com.example.heatbeat.databinding.FragmentSideBinding;
 
 /**
  * A placeholder fragment containing a simple view.
  */
-public class PlaceholderFragment extends Fragment {
+public class PlaceholderFragment extends Fragment
+{
 
     private static final String ARG_SECTION_NUMBER = "section_number";
 
     private PageViewModel pageViewModel;
     private FragmentMainBinding binding;
+    //private FragmentSideBinding binding2;
 
     public static PlaceholderFragment newInstance(int index) {
         PlaceholderFragment fragment = new PlaceholderFragment();

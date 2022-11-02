@@ -23,7 +23,14 @@ public class PageViewModel extends ViewModel {
         @Override
         public String apply(Integer input) {
             //ArrayList<ModelAudio> x = MainActivity.audioArrayList;
+            switch (input){
+                case 1:
+                    return "mama ";
 
+                case 2:
+                    return "joe ";
+
+            }
 
 
             return "Hello world from segfhgdfcgfdxction: "+ input ;

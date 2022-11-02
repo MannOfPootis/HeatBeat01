@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = binding.tabs;
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = binding.fab;
+        //TabLayout.Tab tap = new TabLayout.Tab();
+        tabs
+        tabs.addTab(tabs.getTabAt(0));
+        tabs.removeTabAt(1);
 
         if (checkPermission())
         {
