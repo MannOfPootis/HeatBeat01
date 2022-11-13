@@ -51,7 +51,10 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = binding.fab;
         //TabLayout.Tab tap = new TabLayout.Tab();
-        tabs
+        //tabs
+        //squonk is dubed
+
+
         tabs.addTab(tabs.getTabAt(0));
         tabs.removeTabAt(1);
 
